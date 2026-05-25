@@ -1,5 +1,5 @@
 ---
-name: 512-requirement-business-review
+name: requirement-business-review
 description: Use when the user asks for deep business review of PRDs, requirement documents, product specs, feature proposals, or business process docs. Focus on understanding business model, modules, data relationships, flows, permissions, states, rules, omissions, contradictions, ambiguities, implementation risk, and testability; do not treat the task as a formatting or template-compliance scorecard.
 ---
 
@@ -107,4 +107,3 @@ Scoring is optional. If a score is useful, keep it secondary to the findings and
 - Prefer precise, cited findings over broad criticism.
 - Use source section names, line numbers, headings, or quoted short phrases to locate issues.
 - Keep the tone firm, specific, and constructive.
-
