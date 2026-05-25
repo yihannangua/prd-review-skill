@@ -1,11 +1,11 @@
 ---
-name: requirement-business-review
+name: prd-review
 description: Use when the user asks for deep business review of PRDs, requirement documents, product specs, feature proposals, or business process docs. Focus on understanding business model, modules, data relationships, flows, permissions, states, rules, omissions, contradictions, ambiguities, implementation risk, and testability; do not treat the task as a formatting or template-compliance scorecard.
 ---
 
-# Requirement Business Review
+# PRD Review
 
-This skill performs a deep requirements quality audit. It is for understanding and challenging the business logic in a requirement document, not for checking whether a document follows a fixed template.
+This skill performs a deep PRD and requirements quality audit. It is for understanding and challenging the business logic in a requirement document, not for checking whether a document follows a fixed template.
 
 ## Core Intent
 
