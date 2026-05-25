@@ -1,6 +1,7 @@
 ---
 name: prd-review
 description: Use when the user asks for deep business review of PRDs, requirement documents, product specs, feature proposals, or business process docs. Focus on understanding business model, modules, data relationships, flows, permissions, states, rules, omissions, contradictions, ambiguities, implementation risk, and testability; do not treat the task as a formatting or template-compliance scorecard.
+license: MIT
 ---
 
 # PRD Review
