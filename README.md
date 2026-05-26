@@ -73,6 +73,9 @@ See `examples/sample-review-report.md` for a compact example.
 ## Repository Structure
 
 ```text
+README.md
+CHANGELOG.md
+RELEASE_PROCESS.md
 prd-review/
   SKILL.md
   agents/openai.yaml
@@ -92,6 +95,10 @@ examples/
 ## Privacy
 
 Do not commit real customer documents, confidential PRDs, credentials, personal data, or proprietary business information to this public repository. Use sanitized or fictional examples only.
+
+## Release Process
+
+Commits and GitHub release notes should include Chinese information. See `RELEASE_PROCESS.md`.
 
 ## License
 
@@ -168,6 +175,9 @@ Give detailed modification advice and suggested PRD wording.
 ## 仓库结构
 
 ```text
+README.md
+CHANGELOG.md
+RELEASE_PROCESS.md
 prd-review/
   SKILL.md
   agents/openai.yaml
@@ -187,6 +197,10 @@ examples/
 ## 隐私提醒
 
 不要把真实客户文档、保密 PRD、账号凭据、个人数据或商业敏感信息提交到这个公开仓库。示例请使用脱敏或虚构内容。
+
+## 发布规范
+
+每次提交和 GitHub 版本发布都应该包含中文信息。详见 `RELEASE_PROCESS.md`。
 
 ## 许可证
 
