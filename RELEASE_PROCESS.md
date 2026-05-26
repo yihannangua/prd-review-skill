@@ -58,3 +58,14 @@ git config commit.template .gitmessage
 
 This is a local developer convenience. The release requirement still applies even when commits are created by another tool.
 
+## Related Maintenance Docs
+
+- `CONTRIBUTING.md`: contribution and repository layering rules.
+- `docs/release-checklist.md`: release checklist.
+- `docs/troubleshooting.md`: GitHub, SSH, and publishing troubleshooting.
+
+## 中文补充
+
+- `CONTRIBUTING.md`：贡献方式和仓库分层规则。
+- `docs/release-checklist.md`：版本发布检查清单。
+- `docs/troubleshooting.md`：GitHub、SSH 和发布问题排查。

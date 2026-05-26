@@ -76,6 +76,10 @@ See `examples/sample-review-report.md` for a compact example.
 README.md
 CHANGELOG.md
 RELEASE_PROCESS.md
+CONTRIBUTING.md
+docs/
+  release-checklist.md
+  troubleshooting.md
 prd-review/
   SKILL.md
   agents/openai.yaml
@@ -99,6 +103,12 @@ Do not commit real customer documents, confidential PRDs, credentials, personal 
 ## Release Process
 
 Commits and GitHub release notes should include Chinese information. See `RELEASE_PROCESS.md`.
+
+For development and maintenance:
+
+- `CONTRIBUTING.md`
+- `docs/release-checklist.md`
+- `docs/troubleshooting.md`
 
 ## License
 
@@ -178,6 +188,10 @@ Give detailed modification advice and suggested PRD wording.
 README.md
 CHANGELOG.md
 RELEASE_PROCESS.md
+CONTRIBUTING.md
+docs/
+  release-checklist.md
+  troubleshooting.md
 prd-review/
   SKILL.md
   agents/openai.yaml
@@ -201,6 +215,12 @@ examples/
 ## 发布规范
 
 每次提交和 GitHub 版本发布都应该包含中文信息。详见 `RELEASE_PROCESS.md`。
+
+开发和维护文档：
+
+- `CONTRIBUTING.md`
+- `docs/release-checklist.md`
+- `docs/troubleshooting.md`
 
 ## 许可证
 
