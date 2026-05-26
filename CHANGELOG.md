@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Added marketplace publishing guidance for GitHub Agent Skills, Smithery, and SkillsMP.
+- Added README marketplace placeholders and release checklist reminders.
+- 增加 GitHub Agent Skills、Smithery 和 SkillsMP 的技能市场发布说明。
+- 增加 README 技能市场占位链接和发布检查清单提醒。
+
 ## v1.1.0 - 2026-05-26
 
 - Added explicit requirement clarity and consistency checklist.

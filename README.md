@@ -34,6 +34,19 @@ gh skill install yihannangua/prd-review-skill prd-review --pin v1.0.0
 
 After installing, restart Codex or reload your editor window so the skill is discovered.
 
+## Marketplace
+
+Canonical source:
+
+- GitHub: https://github.com/yihannangua/prd-review-skill
+
+Marketplace listings will be added after they are available:
+
+- Smithery: pending
+- SkillsMP: pending
+
+See `docs/marketplace-publishing.md` for publishing and verification steps.
+
 ## Usage
 
 Example prompt:
@@ -78,6 +91,7 @@ CHANGELOG.md
 RELEASE_PROCESS.md
 CONTRIBUTING.md
 docs/
+  marketplace-publishing.md
   release-checklist.md
   troubleshooting.md
 prd-review/
@@ -146,6 +160,19 @@ gh skill install yihannangua/prd-review-skill prd-review --pin v1.0.0
 
 安装后，请重启 Codex 或重新加载编辑器窗口，让 Codex 发现新 skill。
 
+## 技能市场
+
+官方源码：
+
+- GitHub: https://github.com/yihannangua/prd-review-skill
+
+技能市场链接将在收录后补充：
+
+- Smithery：待收录
+- SkillsMP：待收录
+
+发布和验证步骤见 `docs/marketplace-publishing.md`。
+
 ## 使用方式
 
 示例 prompt：
@@ -190,6 +217,7 @@ CHANGELOG.md
 RELEASE_PROCESS.md
 CONTRIBUTING.md
 docs/
+  marketplace-publishing.md
   release-checklist.md
   troubleshooting.md
 prd-review/

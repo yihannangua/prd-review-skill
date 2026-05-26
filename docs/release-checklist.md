@@ -102,6 +102,12 @@ Recommended format:
   gh repo view yihannangua/prd-review-skill --json url,isPrivate,repositoryTopics
   ```
 
+- [ ] If this release affects marketplace discoverability, verify marketplace preparation:
+
+  ```bash
+  sed -n '1,220p' docs/marketplace-publishing.md
+  ```
+
 ## 中文检查清单
 
 发布新版本前请确认：
@@ -114,4 +120,4 @@ Recommended format:
 - [ ] commit 包含中文信息。
 - [ ] release notes 包含英文和中文。
 - [ ] 发布后已验证 release、远程 main 和 tag。
-
+- [ ] 如果这次发布影响技能市场收录，已检查 `docs/marketplace-publishing.md`。
