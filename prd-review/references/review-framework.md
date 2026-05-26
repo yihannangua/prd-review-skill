@@ -77,7 +77,21 @@ Review module interactions:
 - Can a user enter the same operation through multiple paths with different outcomes?
 - Are permissions enforced consistently across all entry points?
 
-### 4. Rule Completeness Pass
+### 4. Requirement Clarity And Consistency Pass
+
+Review whether the requirement can be interpreted consistently by product, design, engineering, QA, and stakeholders:
+
+- Are business rules clearly defined rather than implied?
+- Are terms used consistently across sections?
+- Are feature descriptions consistent across overview, flow, UI, rules, and acceptance criteria?
+- Are data definitions unified across modules?
+- Are priority labels and priority criteria defined and used consistently?
+- Are there mutually contradictory requirements?
+- Is each requirement unambiguous enough for design, development, and testing?
+
+Use `requirement-quality-checklist.md` for detailed checks.
+
+### 5. Rule Completeness Pass
 
 Evaluate individual business rules:
 
@@ -93,7 +107,7 @@ Evaluate individual business rules:
 - User-facing feedback
 - Testability
 
-### 5. Risk Pass
+### 6. Risk Pass
 
 Identify risks that can cause wrong implementation, production defects, or project delay:
 
@@ -129,4 +143,3 @@ For a long document, prioritize:
 4. Conflict, overwrite, retry, rollback, and deletion rules
 5. Acceptance and testing gaps
 6. Wording and formatting issues
-

@@ -82,6 +82,7 @@ prd-review/
     module-review-template.md
     cross-module-checklist.md
     business-rule-checklist.md
+    requirement-quality-checklist.md
     report-template.md
 examples/
   sample-prd.md
@@ -176,6 +177,7 @@ prd-review/
     module-review-template.md
     cross-module-checklist.md
     business-rule-checklist.md
+    requirement-quality-checklist.md
     report-template.md
 examples/
   sample-prd.md

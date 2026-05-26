@@ -63,14 +63,26 @@ Use this structure for the final review report. Adapt headings when the user's r
 | ID | 严重程度 | 涉及模块 | 问题 | 影响 | 建议 |
 |----|----------|----------|------|------|------|
 
-## 6. 详细问题清单
+## 6. 需求清晰性与一致性
+
+| 检查项 | 结论 | 主要问题 | 建议 |
+|--------|------|----------|------|
+| 业务规则是否清晰定义 |  |  |  |
+| 术语使用是否一致 |  |  |  |
+| 功能描述是否前后一致 |  |  |  |
+| 数据定义是否统一 |  |  |  |
+| 优先级定义是否一致 |  |  |  |
+| 是否存在相互矛盾的需求 |  |  |  |
+| 需求描述是否无歧义 |  |  |  |
+
+## 7. 详细问题清单
 
 | ID | 严重程度 | 类型 | 模块 | 位置 | 问题 | 为什么重要 | 修改建议 |
 |----|----------|------|------|------|------|------------|----------|
 
-## 7. 建议补充/修改文案
+## 8. 建议补充/修改文案
 
-### 7.x 文案标题
+### 8.x 文案标题
 
 建议插入位置：
 
@@ -78,12 +90,12 @@ Use this structure for the final review report. Adapt headings when the user's r
 建议文案
 ```
 
-## 8. 待产品确认问题
+## 9. 待产品确认问题
 
 | ID | 问题 | 背景 | 可选决策 | 影响 |
 |----|------|------|----------|------|
 
-## 9. 建议测试场景
+## 10. 建议测试场景
 
 | 模块 | 场景 | 前置条件 | 操作 | 期望结果 |
 |------|------|----------|------|----------|
@@ -96,4 +108,3 @@ Use this structure for the final review report. Adapt headings when the user's r
 - Use specific module names from the source document.
 - When proposing wording, make it concrete enough to paste into a PRD.
 - If the document is very large, summarize low-risk modules and go deep on high-risk modules.
-

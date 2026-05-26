@@ -56,6 +56,7 @@ Do not use this as the primary skill when the user only wants grammar cleanup, d
      - `references/module-review-template.md` for per-module review.
      - `references/cross-module-checklist.md` for module interaction and consistency checks.
      - `references/business-rule-checklist.md` for rules, states, data, permission, and exception checks.
+     - `references/requirement-quality-checklist.md` for clarity, consistency, priority, terminology, data definition, and ambiguity checks.
 
 3. **Build business model first**
    - Summarize the business goal, system boundary, actors, objects, modules, flows, states, data dependencies, and permissions.
@@ -65,10 +66,12 @@ Do not use this as the primary skill when the user only wants grammar cleanup, d
 4. **Perform module-level review**
    - For each module, identify responsibilities, inputs, outputs, dependencies, rules, states, permissions, normal flow, exception flow, and missing decisions.
    - Find internal contradictions, underspecified rules, incomplete states, ambiguous wording, and test gaps.
+   - Check whether business rules are explicitly defined and whether requirement descriptions are unambiguous enough for design, development, and QA.
 
 5. **Perform cross-module review**
    - Check whether upstream data exists before downstream use.
    - Check consistency of field definitions, conflict handling, permissions, retries, status names, and side effects.
+   - Check consistency of terminology, feature descriptions, data definitions, priority labels, and priority criteria.
    - Check whether data changes in one module affect other modules and whether those effects are specified.
 
 6. **Assess implementation and testing risk**
